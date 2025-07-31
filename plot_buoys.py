@@ -6,8 +6,10 @@ import pandas as pd
 
 def plot_buoy_data():
 
+    # Load North Atlantic geojson
     north_atlantic = gpd.read_file("data/north_atlantic.geojson")
 
+    # Load buoy positions
     buoys = pd.read_csv("data/buoy_data.csv", keep_default_na=False, na_values=[""])
 
     locations = buoys[["Name", "latitude", "longitude"]]
