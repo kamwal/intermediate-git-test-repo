@@ -1,0 +1,21 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+cff-version: 1.2.0
+title: Plot Buoys
+message: >-
+ If you use this software, please cite it using the
+ metadata from this file.
+type: software
+authors:
+ - given-names: Sauze
+name-particle: Colin
+ - given-names: Turner
+family-names: Esther
+ - given-names: Ferrira
+family-names: Tobias
+repository-code: >-
+ https://github.com/YOUR-REPOSITORY-URL/intermediate-git-test-repo.git
+abstract: >-
+ A Python script to graph the locations of wave buoys around the UK.
+keywords:
+ - wave buoys
